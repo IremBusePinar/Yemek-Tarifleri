@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>İremin Mutfağı</title>
+    <link href="CSS/site.css" rel="stylesheet" />
+    <link href="CSS/bootstrap.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="background"></div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">İrem Buse Pınar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Yemek Tarifleri
+
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Et Yemekleri</a></li>
+                            <li><a class="dropdown-item" href="#">Burgerler</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Tatlılar</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="aradığın lezzet burada" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Tarif Ara</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+    <!--Slider-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://thumbs.dreamstime.com/b/delicious-filipino-food-adobo-chicken-herbs-close-up-hori-plate-table-horizontal-70496288.jpg" class="slider" class="d-block w-100" alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://thumbs.dreamstime.com/b/turkish-food-lahmacun-closeup-table-horizontal-wooden-61972003.jpg" class="slider" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://thumbs.dreamstime.com/b/tasty-food-sliced-pork-tenderloin-fresh-vegetables-close-u-tasty-food-sliced-pork-tenderloin-fresh-vegetables-close-up-107228317.jpg" class="slider" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Slider End-->
+    <!--Content-->
+    <button type="button" class="btn btn-primary btn-lg">Et Yemekleri</button>
+    <button type="button" class="btn btn-secondary btn-lg">Burgerler</button>
+    <button type="button" class="btn btn-success btn-lg">Sebze Yemekleri</button>
+    <button type="button" class="btn btn-danger btn-lg">Salatalar ve Mezeler</button>
+    <button onclick="location='Desserts.html'" type="button" class="btn btn-warning btn-lg">Tatlılar</button>
+    <button onclick="location='Drinks.html'" type="button" class="btn btn-info btn-lg">İçecekler</button>
+
+
+
+
+    <!--Content End-->
+
+</body>
+</html>
